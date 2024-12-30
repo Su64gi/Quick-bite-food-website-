@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header--menu">
+            <div class="burger--icon">
+                <i class="fa-solid fa-bars"></i>
+                
+            </div>
+            <div class="search--box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search" id="search-bar">
+
+            </div>
+            <div class="menu--icons">
+                <i class="fa-solid fa-bowl-food"></i>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--cover section-->
+    <section class="cover">
+        <div class="cover--overlay"><h1>Quick Bite</h1>
+        <span class="slogan">Where Taste Takes The Fast Lane</span></div>
+    </section>
+<!---menu list-->
+    <main>
+        <h2 class="section-heading">Food Menu</h2>
+        <div class="menu--list"id="menu-list">
+            <div class="menu--item" data-name="chats" >
+                <img src="samosa.jpg" alt="Salad">
+                <h5>Chats</h5>
+            </div>
+
+            <div class="menu--item" data-name="popular">
+                <img src="kfc.jpg" alt="Burger">
+                <h5>Popular</h5>
+            </div>
+
+            <div class="menu--item" data-name="Desserts">
+                <img src="cake.jpg" alt="">
+                <h5>Desserts </h5>
+            </div>
+
+            <div class="menu--item" data-name="starter" >
+                <img src="chicken.jpg" alt="" >
+                <h5>Starter</h5>
+            </div>
+
+            <div class="menu--item" data-name="Beverages">
+                <img src="milkshake.jpg" alt="">
+                <h5>Beverages</h5>
+            </div>
+
+            <div class="menu--item" data-name="Main Course">
+                <img src="butterchicken.jpg" alt="">
+                <h5>Main course</h5>
+            </div>
+
+            <div class="menu--item" data-name="Veg Meals">
+                <img src="salad.jpg" alt="">
+                <h5>Veg Meals</h5>
+            </div>
+
+            <div class="menu--item" data-name="NonVegFood">
+                <img src="biryani.jpg" alt="">
+                <h5>NonVegFood</h5>
+            </div>
+        
+        </div>
+
+        <!--card item section-->
+        <h2 class="section-heading">Menu Items</h2>
+        <div class="card--list">
+            <div class="card" data-name=" salad Veg Meals">
+                <img src="salad.jpg" alt="">
+                <h4 class="card--title">
+                    Salad
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 150</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="Burger popular Main Course">
+                <img src="burger.jpg" alt="">
+                <h4 class="card--title">
+                    Burger
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 230</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="momo Chats starter popular starter">
+                <img src="momo.jpg" alt="">
+                <h4 class="card--title">
+                    Momo
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 80</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="KFC popular Main Course NonVegFood">
+                <img src="kfc.jpg" alt="">
+                <h4 class="card--title">
+                    KFC Fried Chicken
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 380</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="bubble tea Beverages">
+                <img src="buble-tea.jpg" alt="">
+                <h4 class="card--title">
+                   Bubble Tea
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 150</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="sandwich Veg Meals chats">
+                <img src="sandwich.jpg" alt="">
+                <h4 class="card--title">
+                    Sandwich
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 70</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="sweets Desserts">
+                <img src="sweet.jpg" alt="">
+                <h4 class="card--title">
+                    Sweets
+                </h4>
+                <div class="card--price" >
+                    <div class="price">₹ 150</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="noodles Veg Meals popular">
+                <img src="noodles.jpg" alt="">
+                <h4 class="card--title">
+                    Noodles
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 100</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="ice cream Desserts">
+                <img src="ice-cream.jpg" alt="">
+                <h4 class="card--title">
+                    Ice Cream
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 100</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="chai Beverages">
+                <img src="chai.jpg" alt="">
+                <h4 class="card--title">
+                   Chai
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 20</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="biryani Main Course NonVegFood">
+                <img src="biryani.jpg" alt="">
+                <h4 class="card--title">
+                    Biryani
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 180</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="cake Desserts">
+                <img src="cake.jpg" alt="">
+                <h4 class="card--title">
+                    Cake
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 120</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="Veg Meals">
+                <img src="vegmeals.jpg" alt="">
+                <h4 class="card--title">
+                    Veg Meals
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 120</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="chicken Main Course NonVegFood">
+                <img src="butterchicken.jpg" alt="">
+                <h4 class="card--title">
+                    Butter Chicken
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 220</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+
+            <div class="card" data-name="vada pav chats starter">
+                <img src="vadapav.jpg" alt="">
+                <h4 class="card--title">
+                    Vada Pav
+                </h4>
+                <div class="card--price">
+                    <div class="price">₹ 40</div>
+                    <i class="fa-solid fa-plus add-to-cart" ></i>
+                </div>
+            </div>
+            
+            
+        </div>
+        <!--cart sidebar-->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-close">
+                <i class="fa-solid fa-times"></i>
+            </div>
+                <div class="cart-menu">
+                    <h3>My Cart</h3>
+                    <div class="cart-items">Test 1</div>
+
+                    
+
+                    <div class="sidebar--footer">
+                        <div class="total--amount">
+                            <h5>Total</h5>
+                            <div class="cart-total">$0.0</div>
+                        </div>
+                        <button class="checkout-btn" id="checkout-btn">CheckOut</button>
+                    </div>
+                </div>
+           
+        </div>
+    </main>
+
+   <!-- Modal for user details -->
+   <div class="modal" id="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <h3>Enter Your Details</h3>
+        <form id="user-details-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <label for="address">Address:</label>
+            <textarea id="address" placeholder="Your Address" required></textarea>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" placeholder="Your Phone Number" required>
+            <button type="submit" class="submit-btn">Place Order</button>
+        </form>
+    </div>
+</div>
+
+   <!-- Popup for order success -->
+<div class="order-success-popup" id="order-success-popup" style="display: none;">
+    <div class="popup-content">
+        <h3>Order Placed Successfully!</h3>
+        <img src="tick.jpg" alt="Order Successful" class="success-image">
+        <button id="close-popup">Close</button>
+    </div>
+</div> 
+    
+</body>
+
+<script src="app.js"></script>
+
+
+</html>
