@@ -43,10 +43,10 @@ app.post('/checkout', async (req, res) => {
         await Cart.insertMany(items);
 
         console.log(`Total amount: $${totalAmount}`);
-        res.status(200).json({ message: 'Cart saved successfully' });
+        res.status(200).json({ message: '' });
     } catch (err) {
         console.error('Error saving cart:', err);
-        res.status(500).json({ message: 'Failed to save cart' });
+        res.status(500).json({ message: '' });
     }
 });
 
